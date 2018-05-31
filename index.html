@@ -1,10 +1,23 @@
 <!Doctype html>
-<html>
+<html manifest="https://chaudharyvineet.github.io/path.money_mobile/">
 
   <head>
     <title></title>
-      <script src="serviceWorker1/pwabuilder-sw-register.js"></script>
-    <link rel="manifest" href="/manifest.json">
+      <script>
+          if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+           
+</script>
+      <link src="mainfest.json" type="json">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
     <meta name="MobileOptimized" content="320">
