@@ -6,7 +6,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 .xc {
     font-family: open sans;
@@ -101,6 +101,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 20px;
+    margin-top:10px;
 }
 .al h2{
     text-align: center;
