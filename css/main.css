@@ -1,6 +1,6 @@
 /* img full*/
 
-body {font-family: open sans;}
+body {font-family:open sans;}
 
 #myImg {
     border-radius: 5px;
@@ -21,14 +21,14 @@ body {font-family: open sans;}
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 200px; /* Location of the box */
+    padding-top: 170px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    background-color:transparent; /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
 }
 
 /* Modal Content (image) */
@@ -70,7 +70,7 @@ body {font-family: open sans;}
 }
 
 /* The Close Button */
-.closee {
+.closee{
     position: absolute;
     top: 15px;
     right: 35px;
@@ -101,7 +101,7 @@ body {font-family: open sans;}
 table {
     border-collapse: collapse;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .al h2{
     text-align: center;
@@ -546,6 +546,7 @@ body{
     .alert-dismissible .close{
         padding: .15rem 0.50rem!important;
     }
+
     .banner2{
         font-size: 16px;
         letter-spacing: -0.3px;
