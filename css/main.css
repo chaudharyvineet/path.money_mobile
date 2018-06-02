@@ -6,8 +6,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    margin-bottom: 20px;
 }
-
+.xc {
+    font-family: open sans;
+    font-size:18px!important;
+    opacity: 0.8;
+}
 #myImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
