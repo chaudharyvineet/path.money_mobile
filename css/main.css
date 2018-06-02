@@ -6,12 +6,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 .xc {
     font-family: open sans;
-    font-size:18px!important;
-    opacity: 0.8;
+    margin-left:5px;
+    font-size:15px!important;
+    opacity: 0.6;
 }
 #myImg:hover {opacity: 0.7;}
 
@@ -20,7 +21,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 170px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -101,7 +102,6 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 20px;
-    margin-top:10px;
 }
 .al h2{
     text-align: center;
