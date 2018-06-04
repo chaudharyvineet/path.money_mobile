@@ -1,3 +1,9 @@
+const staticAssets = [
+'./',
+'./css/style.css',
+  '.index.html'
+];
+
 //This is the "Offline page" service worker
 
 //Install stage sets up the offline page in the cache and opens a new cache
