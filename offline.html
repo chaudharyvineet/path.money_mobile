@@ -1,7 +1,7 @@
 <html>
 
   <head>
-    <title></title>
+    <title>PATH.MONEY</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
     <meta name="MobileOptimized" content="320">
@@ -13,11 +13,46 @@
 
       <link rel="stylesheet" href="./css/css/bootstrap.min.css">
  <link rel="manifest" href="./manifest.json">
-
+<link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="./icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 
   </head>
 
   <body>
+    
+    <div class="section">
+    <div id="header" class="container logo_bar">
+     
+        <div class="row">
+            <div class="col-sm-12 pad-none">
+              <div class="row">
+                <div class="col pad-none">
+                  <marquee>You are on offline version of path.money!</marquee>
+                </div>
+              </div>
+             </div>
+        </div>
+      </div>
+      </div>
+    
+    
+    
+    
+    
        <div class="section">
     <div id="header" class="container logo_bar">
      
@@ -92,8 +127,8 @@
         
       <div class="banner_img">
       <div class="row bnr_img">
-        <div>
-            <img class="img-fluid" src="banner.png">
+        <div class="col-12 pad-none">
+            <img class="img-fluid" src="banner.png" style="width:100%;">
           </div>  
         </div>
       </div>
@@ -157,22 +192,6 @@
   </tr>
 </table>
           </div>         
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
           <div class="col-12 pad-none blog_list">
           <div class="row">
             <div class="col-12 pad-none">
@@ -257,9 +276,9 @@
           
           <div class="col-12 pad-none ad_list">
           <div class="row">
-             <div class="col-3 pad-none">
+             <div class="col-2 pad-none">
                  <span class="ad_more">More>></span>                  </div>
-               <div class="col-9 pad-none">
+               <div class="col-10 pad-none">
                     <div class="row ad_link"><a href="#">Points to consider before applying for a loan application</a></div>
                   </div> 
           </div>
@@ -477,6 +496,39 @@ span.onclick = function() {
 }
 </script>
 <!-- img full ends     -->
+          <script>
+      
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('./sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+      
+      
+      </script>
+    <script>
+  var isTooSoon = true;
+window.addEventListener("beforeinstallprompt", function(e) {
+  if (isTooSoon) {
+    e.preventDefault(); // Prevents prompt display
+    // Prompt later instead:
+    setTimeout(function() {
+      isTooSoon = false;
+      e.prompt(); // Throws if called more than once or default not prevented
+    }, 3000);
+  }
+
+  // The event was re-dispatched in response to our request
+  // ...
+});
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
