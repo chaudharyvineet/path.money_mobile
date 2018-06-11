@@ -1,3 +1,60 @@
+.rect{
+    width:100%;
+    height:auto;
+    background-color: #F7F1EC;
+    border-radius: 8px;
+    opacity: 1;
+    
+    
+}
+.navbar-brand{
+        font-size: 14px!important;
+    margin: -11px 0px 0px -3px!important;
+}
+.navbar-toggler {
+       padding: 3px 15px;
+    font-size: 20px;
+    line-height: 1;
+    background-color: transparent;
+    border: 0px solid transparent!important;
+    border-radius: .25rem;
+    margin: -9px 27px -2px 0px!important;
+}
+.dropdown-menu {
+ background-color: #F7F1EC;
+}
+.dropdown-menu.show {
+    display: block;
+    background-color: #F7F1EC;
+    border: 0px;
+}
+.dropdown-item{
+    background-color: #F7F1EC;
+}
+
+.sz{
+    width:10px;
+    height:10px;
+}
+
+.ngle1{
+    height:auto;
+}
+.ngle2{
+    height:auto;
+}
+.ngle3{
+    height:auto;
+}
+.ngle4{
+    height:auto;
+}
+
+.ngle5{
+    height:auto;
+}
+
+
 /* img full*/
 
 body {font-family:open sans;}
