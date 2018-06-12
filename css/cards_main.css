@@ -703,3 +703,25 @@ body{
         opacity: 0.8;
     }
     
+
+.flexbox{
+    display:inline-flex;
+}
+.drop_foot a{
+    font-size:10px!important;
+    font-family: open sans!important;
+    color:#2BC998!important;
+}
+.drop_btn{
+    padding: 11px 0px 0px 5px!important;
+    font-size: 10px!important;
+    color:#2BC998!important;
+}
+.pad_minus{
+    padding: 3px 18px;
+}
+.clps ul li a{
+    color:#000!important;
+    font-size: 10px!important;
+    font-family: open sans!important;
+}
