@@ -4,7 +4,7 @@ open link given below in chrome
 
 https://chaudharyvineet.github.io/path.money_mobile/
 
-click on 3 ... in uper right corner of chrome > add to hoome screen .
+add to hoome screen popup will appear within 5 seconds . accept it
 
 enjoy standalone experience 
 
