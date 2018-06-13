@@ -1,11 +1,28 @@
 .rect{
     width:100%;
     height:auto;
-    background-color: #F7F1EC;
+    background-color: #FFFFFF;
     border-radius: 8px;
+    border-left: 0px solid #E9E9E9;
+    border-right:0px solid #E9E9E9;
+    border-top:0px solid #E9E9E9;
+    border-bottom:2px solid #E9E9E9;
     opacity: 1;
     
     
+}
+.rect2{
+    width:100%;
+    height:auto;
+    background-color: #FAFAFA;
+    border-radius: 8px;
+/*
+    border-left: 0px solid #E9E9E9;
+    border-right:0px solid #E9E9E9;
+    border-top:0px solid #E9E9E9;
+    border-bottom:2px solid #E9E9E9;
+*/
+    opacity: 1;  
 }
 .navbar-brand{
         font-size: 14px!important;
@@ -598,7 +615,7 @@ body{
     }
     
     .line{
-        border-top: 2px solid #606060;
+        border-top: 2px solid #707070;
         margin-top: 8px;
         line-height: 16px;
         opacity: 0.2;
