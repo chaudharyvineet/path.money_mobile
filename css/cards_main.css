@@ -12,13 +12,15 @@
     margin: -11px 0px 0px 1px!important;
 }
 .navbar-toggler {
-       padding: 3px 15px;
+/*       padding: 3px 15px;*/
     font-size: 20px;
     line-height: 1;
     background-color: transparent;
     border: 0px solid transparent!important;
+/*
     border-radius: .25rem;
     margin: -9px 27px -2px 0px!important;
+*/
 }
 .dropdown-menu {
  background-color: #F7F1EC;
@@ -713,15 +715,26 @@ body{
     color:#2BC998!important;
 }
 .drop_btn{
-    padding: 11px 0px 0px 5px!important;
+    padding: 2px 0px 0px 3px!important;
     font-size: 10px!important;
     color:#2BC998!important;
 }
 .pad_minus{
-    padding: 3px 18px;
+    padding: 4px 0px 0px 20px!important;
 }
 .clps ul li a{
     color:#000!important;
     font-size: 10px!important;
     font-family: open sans!important;
+}
+
+.text-muted a{
+   font-size:10px!important;
+    font-family: open sans!important;
+    color:#8F8F8F!important; 
+}
+.text-muted button{
+   font-size:10px!important;
+    font-family: open sans!important;
+    color:#8F8F8F!important; 
 }
